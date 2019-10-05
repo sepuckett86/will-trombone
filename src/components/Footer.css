@@ -1,0 +1,19 @@
+.Footer {
+  text-align: center;
+  background-color: whitesmoke;
+  padding: 1.2em 1em 1.2em 1em;
+  font-family: 'Roboto', sans-serif;
+  .updated {
+    font-size: 0.8em;
+    color: grey;
+    padding-top: 0.5em;
+  }
+  .right {
+    position: absolute;
+    right: 1rem;
+  }
+  .left {
+    position: absolute;
+    left: 1rem;
+  }
+}
