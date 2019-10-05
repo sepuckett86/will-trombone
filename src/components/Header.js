@@ -34,7 +34,7 @@ class Header extends Component {
 
     if(this.state.header === 'big') {
       headerStyle = {
-        height: '30vh',
+        height: '20vh',
       };
       brandStyle = {
         fontSize: '3em'
@@ -54,12 +54,12 @@ class Header extends Component {
       <header style={headerStyle} className={styles.Header}>
         <p style={brandStyle} className={styles.name}>Will Martin Trombone</p>
         <ul>
-          <li><a href="#intro">Intro</a></li>
-          <li><a href="#music">Music</a></li>
-          <li><a href="#lessons">Lessons</a></li>
-          <li><a href="#bio">Bio</a></li>
-          <li><a href="#links">Links</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#Intro">Intro</a></li>
+          <li><a href="#Music">Music</a></li>
+          <li><a href="#Lessons">Lessons</a></li>
+          <li><a href="#Bio">Bio</a></li>
+          <li><a href="#Links">Links</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </header>
     );
