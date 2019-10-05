@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import Hero from './Hero';
+import Title from './Title';
 import Intro from './Intro';
 import Music from './Music';
 import Lessons from './Lessons';
@@ -16,6 +17,7 @@ export default function App() {
       <Header />
       <Hero />
       <main>
+        <Title />
         <Intro />
         <hr />
         <Music />
