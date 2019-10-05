@@ -34,7 +34,7 @@ class Header extends Component {
 
     if(this.state.header === 'big') {
       headerStyle = {
-        height: '20vh',
+        height: '100px',
       };
       brandStyle = {
         fontSize: '3em'
@@ -43,7 +43,7 @@ class Header extends Component {
 
     if(this.state.header === 'small') {
       headerStyle = {
-        height: '15vh',
+        height: '50px',
       };
       brandStyle = {
         fontSize: '2em'
@@ -52,7 +52,7 @@ class Header extends Component {
 
     return (
       <header style={headerStyle} className={styles.Header}>
-        <p style={brandStyle} className={styles.name}>Will Martin Trombone</p>
+        <p style={brandStyle} className={styles.name}>🎼 Will Martin Trombone</p>
         <ul>
           <li><a href="#Intro">Intro</a></li>
           <li><a href="#Music">Music</a></li>

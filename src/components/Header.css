@@ -21,20 +21,20 @@
       font-family: 'Roboto', sans-serif;
       display: block;
       text-decoration: none; 
-      color: #952024;
+      color: black;
       padding-left: 1.5em;
       border-radius: 10px; 
     }
     a:hover {
-      color: black;
+      color: #952024;
     }
   }
 
   .name {
     margin-left: 1em;
-    font-family: 'Sedgwick Ave Display', cursive;
     font-family: 'Gaegu', cursive;
-    color: rgb(10, 146, 123);
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: rgb(78, 78, 229);
     transition: 0.2s;
   }
 }

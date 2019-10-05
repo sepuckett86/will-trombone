@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Gaegu|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gaegu|Roboto|Sedgwick+Ave+Display&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0px;
@@ -10,5 +14,9 @@ main {
 }
 
 section {
-  padding-top: 80px;
+  padding: 4em 0 4em 0;
+}
+
+hr {
+  border: 2px rgb(78, 78, 229) solid;
 }
